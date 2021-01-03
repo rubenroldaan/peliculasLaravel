@@ -1,5 +1,4 @@
 @extends('layouts.master')
-@section('title','Chupame el orto')
 @section('content')
 
 <table border="1px solid black">

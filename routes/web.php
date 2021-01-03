@@ -13,8 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('formLogin');
-});
-
 Route::get('/peliculas','PeliculaController@index')->name('pelicula.index');
+Route::get('/peliculas/{id}','PeliculaController@show')->name('pelicula.show');
