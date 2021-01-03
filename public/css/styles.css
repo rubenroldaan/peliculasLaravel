@@ -1,0 +1,21 @@
+.carteles {
+    width: 200px;
+}
+
+.estrella {
+    width: 2%;
+}
+
+.peliculaLista {
+    margin: auto;
+    padding: 40px;
+    margin-right: 0px;
+
+}
+
+.tablaPeliculas {
+    position: relative;
+    border: 1px solid black;
+    left: 50%;
+    transform: translateX(-50%);
+}
